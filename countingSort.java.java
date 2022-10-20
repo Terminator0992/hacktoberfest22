@@ -4,7 +4,7 @@ class CountingSort {
         int n = arr.length;
   
      
-        char output[] = new char[n];
+        char output[] = new char
   
         
         int count[] = new int[256];
