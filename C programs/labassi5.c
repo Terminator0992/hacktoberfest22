@@ -13,7 +13,7 @@ int Search(int arr[10],int n){
 }
 int main()
 {
-    int a[10]={69,2,35,12,4,16,8,9,1,0};
+    int a[10]={62,25,351,121,41,116,78,99,10,01};
     int unknown;
     printf("Enter the number to be searched: ");
     scanf("%d",&unknown);
