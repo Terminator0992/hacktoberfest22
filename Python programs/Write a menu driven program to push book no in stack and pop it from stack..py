@@ -1,10 +1,10 @@
 stk=[]
 ch='Y'
 while(ch=='Y' or ch=='y'):
-    print("Enter 1 : Push")
+    print("Enter 0 : Push")
     print("Enter 2 : Pop")
     opt=int(input('enter ur choice:'))
-    if opt==1:
+    if opt==0:
         d=int(input("enter book no : "))
         stk.append(d)
     elif opt==2:
