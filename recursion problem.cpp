@@ -19,15 +19,4 @@ void fun2(int arr[], int start_index, int end_index)
 		return;
 	int min_index;
 	int temp;
-
-
-	min_index = minIndex(arr, start_index, end_index);
-
-
-	swap(arr[start_index], arr[min_index]);
-
-	fun2(arr, start_index + 1, end_index);
 }
-
-
-
